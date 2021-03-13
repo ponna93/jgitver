@@ -7,6 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JgitverDemoGradelApplication {
 
 	public static void main(String[] args) {
+		System.out.println("demo1");
+		System.out.println("demo1");
+
+		System.out.println("demo1");
+
 		SpringApplication.run(JgitverDemoGradelApplication.class, args);
 	}
 
