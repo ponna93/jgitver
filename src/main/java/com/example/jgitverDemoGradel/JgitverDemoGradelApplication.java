@@ -10,8 +10,6 @@ public class JgitverDemoGradelApplication {
 		System.out.println("demo1");
 		System.out.println("demo1");
 
-		System.out.println("demo1");
-
 		SpringApplication.run(JgitverDemoGradelApplication.class, args);
 	}
 
