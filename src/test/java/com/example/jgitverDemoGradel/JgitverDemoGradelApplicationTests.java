@@ -8,12 +8,6 @@ class JgitverDemoGradelApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println("qwfeterrereh");
-		System.out.println("qwfeterrereh");
-		System.out.println("qwfeterrereh");
-		System.out.println("qwfeterrereh");
-		System.out.println("qwfeterrereh");
-		System.out.println("qwfeterrereh");
 
 	}
 
