@@ -12,7 +12,6 @@ class JgitverDemoGradelApplicationTests {
 
 		System.out.println("qwfeterrereh");
 		System.out.println("qwfeterrereh");
-		System.out.println("qwfeterrereh");
 
 	}
 
