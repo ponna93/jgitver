@@ -22,19 +22,17 @@ test {
 	useJUnitPlatform()
 }
 
+
 jgitver {
-	strategy CONFIGURABLE
-	policy NEAREST
-	autoIncrementPatch true
-	useDirty false
-//	gitCommitIDLength integer
-//	maxDepth integer              ( >= 0.7.0)
-	nonQualifierBranches develop
-//	versionPattern string         (only for PATTERN strategy, >= 0.6.0)
-//	tagVersionPattern string      (only for PATTERN strategy >= 0.6.0)
-//	policy {                         repeatable closure
-//		pattern string              (regexp with capturing group)
-//		transformations array       (array of string)
-//	}
-//	distanceCalculatorKind FIRST_PARENT | LOG | DEPTH
+
+
+	policy {
+		pattern = '(develop)'
+		transformations = ['REMOVE_UNEXPECTED_CHARS', 'UPPERCASE']
+	}
+
+	policy {
+		pattern = '(master)'
+		transformations = ['REMOVE_UNEXPECTED_CHARS', 'LOWERCASE']
+	}
 }
